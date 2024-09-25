@@ -6,3 +6,6 @@ form.addEventListener('submit', (e) => {
     let locationURI = encodeURI(searchLocation.value);  
     console.log(locationURI);
 })
+
+const apiKey = 'KVUJK44DM3UHFUNTHD7HVLVKB';
+const response = await fetch(`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${location}?unitGroup=metric&key=${apiKey}`);
