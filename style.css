@@ -1,0 +1,119 @@
+body * {
+ 
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 100px auto;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 50px 100px 100px;
+    background-color: #5f9ea0cc;
+    border-radius: 40px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+    position: relative;
+}
+
+.container > div {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor:default
+}
+
+.temperature {
+    margin-top: 50px;
+}
+
+.input {
+ 
+}
+
+#temp {
+    font-size: 60px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    background-color: #b2d0d1;
+    /* box-shadow: 3px 3px 5px #00000011, -3px -3px 5px #dec4c783;  */
+    box-shadow: 3px 3px 10px #7eacad;
+
+}
+#currCond {
+    width: 60%;
+}
+
+#icon {
+    width: 90px;
+    color: white;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+}
+
+#description {
+    padding: 10px;
+    width: 80%;
+    
+    border-radius: 10px;
+}
+.where {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+.where a:link {
+    color: white;
+}
+.where a:visited{
+    color: white;
+}
+.where a:hover{
+    color: #e9f4f5;
+}
+.where a:active{
+    color: white
+}
+
+#location { 
+    width: 400px;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    float:left;    
+}
+#location:focus {
+    outline:  double 3px #accccd;
+}
+button {
+    margin-left: 10px;
+    padding: 0;
+    width: 90px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #b2d0d1;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 20px;
+    float:left;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #accccd;
+    transform: scale(0.99);
+}
+button:active {
+    background-color: hsl(182, 25%, 77%);
+    transform: scale(1.01);
+}

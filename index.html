@@ -7,21 +7,26 @@
     <title>Document</title>
     <script src="main.js" defer></script>
     <link rel="stylesheet" href="style.css">
+   
 </head>
 <body>
     <div class="container">
         <div class="temperature">
-            <h1 id="temp"></h1>
+            <h1 id="temp">21°C</h1>
         </div>
         <div class="currentCondition">
-            <h3 id="currCond"></h3>
+            <h3 id="currCond">Cloudy with a chance of meatballs</h3>
+            <img src="icons/cloudy.svg" alt="cloudy" id="icon">
         </div>
         <div class="description">
-            <p id="description"></p>
+            <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ab dolorem pariatur dolor esse aut.</p>
+        </div>
+        <div class="where">
+            <a href="" target="_blank">Swallow Falls</a>
         </div>
         <div class="input">
             <form name="searchLocation" id="searchLocation">
-                <input type="text" name="location" id="location">
+                <input type="text" name="location" id="location" placeholder="Enter City, address or coordinates" autofocus>
                 <button type="submit">Search</button>
             </form>
         </div>
