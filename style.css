@@ -4,12 +4,12 @@ body * {
 }
 
 .container {
-    margin: 100px auto;
+    margin: 100px auto 0;
     width: 600px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 200px 50px 100px 100px;
-    background-color: #5f9ea0cc;
+    background-color: #7eacad;
     border-radius: 40px;
 
     font-family: Arial, Helvetica, sans-serif;
@@ -117,3 +117,27 @@ button:active {
     background-color: hsl(182, 25%, 77%);
     transform: scale(1.01);
 }
+
+
+.container2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    margin: -40px auto 0;
+    background-color: #b2cdce;
+    height: 400px;
+    z-index: -1;
+    border-radius: 0 0 40px 40px;
+}
+.subContainer{
+    width: 90%;
+    height: 315px;
+    background-color: #7eacad;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    margin-top: 60px;
+
+}
+
