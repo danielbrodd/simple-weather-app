@@ -51,35 +51,35 @@ function switchBackground(condition) {
     
     switch (condition) {
         case "snow":
-            icon = "./icons/snow.svg"
+            icon = "icons/snow.svg"
             break;
         case "clear-day":
-            icon = "./icons/clear-day.svg"
+            icon = "icons/clear-day.svg"
             break;
         case "clear-night":
-            icon = "./icons/clear-night.svg"
+            icon = "icons/clear-night.svg"
             break;
         case "cloudy":
-            icon = "./icons/cloudy.svg"
+            icon = "icons/cloudy.svg"
             break;
         case "fog":
-            icon = "./icons/fog.svg"
+            icon = "icons/fog.svg"
             break;
         case "partly-cloudy-day":
-            icon = "./icons/partly-cloudy-day.svg"
+            icon = "icons/partly-cloudy-day.svg"
             break;
         case "partly-cloudy-night":
-            icon = "./icons/partly-cloudy-night.svg"
+            icon = "icons/partly-cloudy-night.svg"
             break;
         case "rain":
-            icon = "./icons/rain.svg"
+            icon = "icons/rain.svg"
             break;
         case "wind":
-            icon = "./icons/wind.svg"
+            icon = "icons/wind.svg"
             break;
     
         default:
-            icon = "./icons/cloudy.svg"
+            icon = "icons/cloudy.svg"
             break;
     }
     img.src = icon;
