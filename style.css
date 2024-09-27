@@ -117,3 +117,51 @@ button:active {
     background-color: hsl(182, 25%, 77%);
     transform: scale(1.01);
 }
+
+/* ChatGPT code */
+@media only screen and (max-width: 400px) {
+    .container {
+        width: 90%; /* Adjust container width */
+        margin: 20px auto; /* Reduce margins for smaller screens */
+        grid-template-rows: 150px 40px 80px 80px; /* Make grid areas smaller */
+        border-radius: 20px; /* Smaller border radius */
+        display: flex;
+        flex-direction: column; /* Make elements stack vertically */
+        align-items: center; /* Center elements horizontally */
+        grid-template-rows: none; /* Remove fixed grid rows */
+    }
+
+    #temp {
+        font-size: 40px; /* Reduce font size for temperature */
+        padding: 10px 20px; /* Adjust padding */
+        border-radius: 30px; /* Adjust border-radius */
+    }
+
+    #icon {
+        width: 60px; /* Reduce the size of the icon */
+        top: 20px; /* Adjust the position */
+        left: 20px;
+    }
+
+    button {
+        width: 70px; /* Make the button smaller */
+        height: 40px;
+        font-size: 16px; /* Adjust button text size */
+        
+    }
+
+    #location {
+        width: 150px; /* Make the input smaller */
+        height: 40px;
+        font-size: 16px;
+
+    }
+    
+    .where {
+        top: 5px;
+        right: 10px; /* Adjust the positioning of the location link */
+    }
+    form {
+        padding-bottom: 20px;
+    }
+}
