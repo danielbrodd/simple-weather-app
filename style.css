@@ -119,7 +119,7 @@ button:active {
 }
 
 /* ChatGPT code */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
     .container {
         width: 90%; /* Adjust container width */
         margin: 20px auto; /* Reduce margins for smaller screens */
